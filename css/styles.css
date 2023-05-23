@@ -145,3 +145,27 @@ span {
     font-weight: 700;
     margin-bottom: 1.25rem;
 }
+
+@media screen and (max-width: 620px){
+    html {
+        font-size: 14px;
+    }
+
+    .flex-container {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .column1, .column2, .column3 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .header {
+        padding: 15px;
+    }
+}
