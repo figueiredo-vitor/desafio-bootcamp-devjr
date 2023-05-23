@@ -2,6 +2,20 @@ body {
     background-color: #F5F5F5;
     font-family: 'Lato', sans-serif;
 }
+input {
+    width: 80%;
+    height: 5px;
+    padding: 0.9rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 0;
+    margin: 10px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #2a8b8b;
+}
 
 .container {
     background-color: #3e4b51;
@@ -13,18 +27,19 @@ body {
 }
 
 .header {
-    padding: 40px;
+    padding: 35px;
 }
 
 .section-input {
     text-align: center;
     background-color: #74b3a7;
+    border-radius: 5px;
     padding: 20px;
+    margin: 20px;
 }
 
 .flex-container {
     display: flex;
-    background-color: #1ea49d;
     justify-content: space-around;
     padding: 20px;
 }
@@ -63,4 +78,12 @@ body {
 
 span {
     color: #beee3b;
+}
+
+.title-input {
+    text-align: center;
+    color: #070705;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
 }
