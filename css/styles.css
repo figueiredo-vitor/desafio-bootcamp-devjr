@@ -10,6 +10,7 @@ input {
     border-radius: 5px;
     border: 0;
     margin: 10px;
+    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
 }
 
 input:focus {
@@ -36,13 +37,32 @@ input:focus {
     border-radius: 5px;
     padding: 20px;
     margin: 20px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 1);
 }
 
 .flex-container {
     display: flex;
     justify-content: space-around;
     padding: 20px;
+    font-size: 20px;
+}
 
+button {
+    
+    width: 100%;
+    margin-top:  1rem;
+    padding: 0.5rem 1rem;
+    color: #FFFFFF;
+    background-color: #34502b;
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  
+}
+
+button:hover {
+    background-color: #58ce74;
 }
 
 .column1 {
@@ -51,6 +71,7 @@ input:focus {
     border-radius: 5px;
     padding: 30px;
     margin: 10px;
+    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
     
 }
 .column2 {
@@ -59,6 +80,7 @@ input:focus {
     border-radius: 5px;
     padding: 30px;
     margin: 10px;
+    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
     
 }
 .column3 {
@@ -67,7 +89,17 @@ input:focus {
     border-radius: 5px;
     padding: 30px;
     margin: 10px;
-    
+    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);    
+}
+.image1 {
+    margin: 10px;
+}
+.image2 {
+    margin: 10px;
+}
+
+.image3 {
+    margin: 10px;
 }
 
 .header-title {
