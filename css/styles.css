@@ -1,0 +1,27 @@
+body {
+    background-color: #F5F5F5;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    background-color: #3e4b51;
+    margin: auto;
+    width: 600px;
+}
+
+.header {
+    padding: 40px;
+}
+
+.section-input {
+    text-align: center;
+    background-color: #74b3a7;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #1ea49d;
+    justify-content: space-around;
+    padding: 20px;
+}
