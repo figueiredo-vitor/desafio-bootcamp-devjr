@@ -7,6 +7,9 @@ body {
     background-color: #3e4b51;
     margin: auto;
     width: 600px;
+    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .header {
@@ -24,4 +27,40 @@ body {
     background-color: #1ea49d;
     justify-content: space-around;
     padding: 20px;
+}
+
+.header-title {
+    text-align: center;
+    color: #beee3b;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+}
+
+.header-subtitle {
+    text-align: center;
+    color: #f0f0d8;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0.9375rem;
+}
+
+.header-subtitle2 {
+    text-align: center;
+    color: #f0f0d8;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0.9375rem;
+}
+
+.header-subtitle3 {
+    text-align: center;
+    color: #f0f0d8;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0.9375rem;
+}
+
+span {
+    color: #beee3b;
 }
