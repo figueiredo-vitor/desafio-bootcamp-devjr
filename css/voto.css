@@ -1,0 +1,26 @@
+.container-voto {
+    font-size: 30px;
+    background-color: #7b9971;
+    text-align: center;
+    border-radius: 5px;
+    padding: 50px;
+    border: 300px;
+    margin: 300px;
+    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 620px){
+    html {
+        font-size: 14px;
+    }
+
+    .container-voto {
+        width: 60%;
+        margin: auto;   
+    }
+
+    .flex-container-voto {
+        align-items: center;
+        flex-direction: column;
+    }
+}    
